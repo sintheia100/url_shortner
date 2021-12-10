@@ -1,0 +1,19 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css')
+  link(href='style.css' rel='stylesheet' type='text/css')
+  script(src='fetch.js' type="text/javascript")
+  title URL Shortener Microservice
+h3 API Project : URL Shortener Microservice 
+br
+div
+  form#form(action='')
+    div
+      label(for='url-input') URL:
+      input#url-input(style='width: 20rem; height: 2rem; margin: 1rem;' type='text' name='url-input')
+    input#btn(type='submit' value='Short URL')
+div#link
+script(src='fetch.js' type="text/javascript")
